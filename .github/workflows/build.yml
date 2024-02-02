@@ -1,0 +1,9 @@
+#This is a YAML file
+
+on : push
+jobs:
+    first-job:
+        runs-on : windows-latest, macos-latest
+        steps :
+            -run : node --version
+            -run : npm --version
