@@ -25,3 +25,6 @@ module.exports = {
         "quotes": ["error", "double"],
     }
 }
+
+
+//eslint file.
